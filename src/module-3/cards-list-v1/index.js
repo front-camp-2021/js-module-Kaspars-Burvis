@@ -1,5 +1,3 @@
-import Card from '../../module-2/card/index.js';
-
 export default class CardsList {
   element;
   subElement = {};
@@ -17,7 +15,9 @@ export default class CardsList {
   }
 
   get temlate() {
-    return '<div> <div class="d-flex flex-wrap p-2" data-element="body"> </div> </div>'
+    return `<div>
+     <div class="goods" data-element="body"> </div> 
+     </div>`;
   }
 
   render() {
